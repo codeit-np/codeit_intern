@@ -1,5 +1,8 @@
 <template>
-  <div></div>
+  <div>
+    <InternPartners />
+  </div>
+  
 </template>
 
 <script setup></script>
