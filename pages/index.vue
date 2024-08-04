@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <CareerDomain />
+  </div>
 </template>
 
 <script setup></script>
