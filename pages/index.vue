@@ -1,8 +1,7 @@
 <template>
   <div>
-    <InternPartners />
+    <CareerDomain />
   </div>
-  
 </template>
 
 <script setup></script>
