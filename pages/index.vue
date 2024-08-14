@@ -1,7 +1,5 @@
 <template>
   <div>
-    <InternPartners/>
-    <CareerDomain />
     <section class=" flex justify-centent-between items-center">
           <div class="flex flex-col gap-5 padding px-28">
             <div class="relative flex-col gap-5">
@@ -52,6 +50,9 @@
 
         
         </section>
+    <InternPartners/>
+    <CareerDomain />
+
   </div>
  
 </template>
