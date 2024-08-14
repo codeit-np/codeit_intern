@@ -579,7 +579,11 @@
     which "^3.0.1"
     ws "^8.17.1"
 
+<<<<<<< HEAD
 "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.12.2", "@nuxt/kit@^3.12.3", "@nuxt/kit@^3.9.0", "@nuxt/kit@3.12.4":
+=======
+"@nuxt/kit@^3.11.2", "@nuxt/kit@^3.12.2", "@nuxt/kit@^3.12.3", "@nuxt/kit@^3.5.0", "@nuxt/kit@3.12.4":
+>>>>>>> HeroSection
   version "3.12.4"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.12.4.tgz"
   integrity sha512-aNRD1ylzijY0oYolldNcZJXVyxdGzNTl+Xd0UYyFQCu9f4wqUZqQ9l+b7arCEzchr96pMK0xdpvLcS3xo1wDcw==
@@ -741,9 +745,15 @@
     "@parcel/watcher-win32-x64" "2.4.1"
 
 "@pinia/nuxt@^0.5.1":
+<<<<<<< HEAD
   version "0.5.2"
   resolved "https://registry.npmjs.org/@pinia/nuxt/-/nuxt-0.5.2.tgz"
   integrity sha512-YvQqcv1LehSnH1OTC+9wU53UK+UxB45+vJXpc/RljJiSAfbEVGE+3NZ8WRsWC+YvL7A3FgtbmeuqhGka0lANJA==
+=======
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/@pinia/nuxt/-/nuxt-0.5.1.tgz"
+  integrity sha512-6wT6TqY81n+7/x3Yhf0yfaJVKkZU42AGqOR0T3+UvChcaOJhSma7OWPN64v+ptYlznat+fS1VTwNAcbi2lzHnw==
+>>>>>>> HeroSection
   dependencies:
     "@nuxt/kit" "^3.9.0"
     pinia ">=2.2.0"
@@ -3869,10 +3879,17 @@ pify@^2.3.0:
   resolved "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+<<<<<<< HEAD
 pinia@^2.1.7, pinia@>=2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/pinia/-/pinia-2.2.0.tgz"
   integrity sha512-iPrIh26GMqfpUlMOGyxuDowGmYousTecbTHFwT0xZ1zJvh23oQ+Cj99ZoPQA1TnUPhU6AuRPv6/drkTCJ0VHQA==
+=======
+pinia@^2.1.7, pinia@>=2.1.7:
+  version "2.1.7"
+  resolved "https://registry.npmjs.org/pinia/-/pinia-2.1.7.tgz"
+  integrity sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==
+>>>>>>> HeroSection
   dependencies:
     "@vue/devtools-api" "^6.6.3"
     vue-demi "^0.14.8"
@@ -5283,7 +5300,11 @@ vue-router@^4.4.0:
   dependencies:
     "@vue/devtools-api" "^6.5.1"
 
+<<<<<<< HEAD
 "vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.0, vue@^3.2.25, vue@^3.3.0, vue@^3.3.4, vue@^3.4.32, vue@^3.4.34, "vue@>=2.7 || >=3", vue@3.4.34:
+=======
+"vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.0, vue@^3.2.25, vue@^3.3.0, vue@^3.3.4, vue@^3.4.32, "vue@>=2.7 || >=3", vue@3.4.34, vue@latest:
+>>>>>>> HeroSection
   version "3.4.34"
   resolved "https://registry.npmjs.org/vue/-/vue-3.4.34.tgz"
   integrity sha512-VZze05HWlA3ItreQ/ka7Sx7PoD0/3St8FEiSlSTVgb6l4hL+RjtP2/8g5WQBzZgyf8WG2f+g1bXzC7zggLhAJA==
@@ -5295,9 +5316,15 @@ vue-router@^4.4.0:
     "@vue/shared" "3.4.34"
 
 vuetify@^3.0.0, vuetify@^3.6.13:
+<<<<<<< HEAD
   version "3.6.14"
   resolved "https://registry.npmjs.org/vuetify/-/vuetify-3.6.14.tgz"
   integrity sha512-iSa3CgdTEt/7B0aGDmkBARe8rxDDycEYHu1zNtOf1Xpvs/Tv7Ql5yHGqM2XCY0h7SL8Dme39pJIovzg3q4JLbQ==
+=======
+  version "3.6.13"
+  resolved "https://registry.npmjs.org/vuetify/-/vuetify-3.6.13.tgz"
+  integrity sha512-Gz7jxXAkmff2m6CM0EUWOo/72TM322/3I6aDna++k1nPOW1/hNx4td1MZG4u75fzdn3r+uIe0dbF7SWuhu6DWA==
+>>>>>>> HeroSection
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

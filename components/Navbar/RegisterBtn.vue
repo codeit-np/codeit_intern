@@ -2,7 +2,7 @@
   <div>
     <v-btn>Register</v-btn>
   </div>
-</template>
+</template> 
 
 <script setup></script>
 
