@@ -7,7 +7,7 @@
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="">About Us</NuxtLink>
             <NuxtLink to="">Voice Of Students</NuxtLink>
-            <NuxtLink to="">Gallery</NuxtLink>
+            <NuxtLink to="/gallery">Gallery</NuxtLink>
             <NuxtLink to="/allBlogs">Blogs</NuxtLink>
             <NuxtLink to="">Events</NuxtLink>
             <NuxtLink to="/contact">Contact Us</NuxtLink>
