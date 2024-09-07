@@ -10,7 +10,7 @@
             <NuxtLink to="">Gallery</NuxtLink>
             <NuxtLink to="/allBlogs">Blogs</NuxtLink>
             <NuxtLink to="">Events</NuxtLink>
-            <NuxtLink to="">Contact Us</NuxtLink>
+            <NuxtLink to="/contact">Contact Us</NuxtLink>
             <a href="https://codeit.com.np/dashboard" target="_blank"> Student Portal</a>
         </div>
 
