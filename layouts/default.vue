@@ -1,6 +1,6 @@
 <template>
-  <NuxtLoadingIndicator/>
   <div>
+  <NuxtLoadingIndicator/>
     <header>
       <Topbar />
       <Nav />
@@ -17,18 +17,21 @@
 <script setup>
 import { useWebsiteStore } from "~/store/website";
 import { useUpcomingStore } from "~/store/upcoming";
-import { usePartnersStore } from "~/store/internpartners";
-import { useBlogsStore } from "~/store/blog";
+import { useOnlineStore } from "~/store/online";
+import { usePhysicalStore } from "~/store/physical";
+import { usePopularStore } from "~/store/AllPopularCourses";
+
 const websiteStore = useWebsiteStore();
 const upcomingStore = useUpcomingStore();
-const partnerStore = usePartnersStore();
-const blogStore = useBlogsStore();
-
+const OnlineStore = useOnlineStore();
+const PhysicalStore = usePhysicalStore();
+const popularStore = usePopularStore();
 
 await websiteStore.fetchWebsiteDetails();
 await upcomingStore.fetchOnlineUpcomingClasses();
-await partnerStore.fetchInternPartners();
-await blogStore.fetchBlogs();
+await OnlineStore.fetchOnlineCourses();
+await PhysicalStore.fetchPhysicalCourses();
+await popularStore.fetchPopularCourses();
 </script>
 
 <style lang="scss" scoped></style>
