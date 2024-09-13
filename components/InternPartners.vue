@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-[#DD4A291A]">
+  <section class="py-20 bg-[#3cc5471a]">
     <v-container>
       <div class="flex flex-col items-center">
         <h1 class="font-bold text-3xl text-[#DD4A29]">Internship Partners</h1>

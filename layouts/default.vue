@@ -17,21 +17,21 @@
 <script setup>
 import { useWebsiteStore } from "~/store/website";
 import { useUpcomingStore } from "~/store/upcoming";
-import { useOnlineStore } from "~/store/online";
-import { usePhysicalStore } from "~/store/physical";
-import { usePopularStore } from "~/store/AllPopularCourses";
+import { usePartnersStore } from "~/store/internpartners";
+import { useBlogsStore } from "~/store/blog";
+import { useClientsStore } from "~/store/client";
 
 const websiteStore = useWebsiteStore();
 const upcomingStore = useUpcomingStore();
-const OnlineStore = useOnlineStore();
-const PhysicalStore = usePhysicalStore();
-const popularStore = usePopularStore();
+const partnerStore = usePartnersStore();
+const blogStore = useBlogsStore();
+const clientStore = useClientsStore();
 
 await websiteStore.fetchWebsiteDetails();
 await upcomingStore.fetchOnlineUpcomingClasses();
-await OnlineStore.fetchOnlineCourses();
-await PhysicalStore.fetchPhysicalCourses();
-await popularStore.fetchPopularCourses();
+await partnerStore.fetchInternPartners();
+await blogStore.fetchBlogs();
+await clientStore.fetchOurClients();
 </script>
 
 <style lang="scss" scoped></style>
