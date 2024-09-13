@@ -1,24 +1,30 @@
 <template>
-  <div>
+  <v-container>
     <section class="px-8 md:px-16 lg:px-24 mt-6">
       <div>
-        <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to>{{ onlineStore.course.category_name }}</NuxtLink>
+        <NuxtLink to="/">Home</NuxtLink> >
+        <NuxtLink to>{{ onlineStore.course.category_name }}</NuxtLink> >
         <span>{{ onlineStore.course.course_name }}</span>
       </div>
     </section>
-
+    <!-- For Slug Card and Slug Form -->
     <section>
+      <div class="grid grid-cols-2 gap-10" >
+        <!-- Slug Card  -->
         <div>
-            
-            <img :src="onlineStore.course.featured" alt="image">
+          <SlugCard :card="card"/>
         </div>
+        <!-- Slug Form  -->
+        <div>
+          <SlugForm />
+        </div>
+      </div>
     </section>
+    <!-- For Similar Courses Section -->
+    <section>
 
-    <div>
-        {{ onlineStore.course }}
-    </div>
-  </div>
+    </section>
+  </v-container>
 </template>
 
 <script setup>
